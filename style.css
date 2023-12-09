@@ -9,12 +9,15 @@
 header {
   /* background-color: #000; */
   border: 1px solid black;
-  /* height: 43.9915px; */
+  width: 100%;
   height: fit-content;
+  position: fixed;
+  color: rgba(194, 194, 194, 0.8);
+}
+nav {
   display: flex;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.8);
-  color: rgba(194, 194, 194, 0.8);
 }
 header svg {
   display: flex;
