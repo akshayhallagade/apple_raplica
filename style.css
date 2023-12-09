@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+/* ------------ Header -------- */
+header {
+  /* background-color: #000; */
+  border: 1px solid black;
+  /* height: 43.9915px; */
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgba(194, 194, 194, 0.8);
+}
+header svg {
+  display: flex;
+  align-items: center;
+}
+header svg path {
+  height: 43.9915px;
+  fill: rgba(194, 194, 194, 0.8);
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-width: 60vw;
+}
+ul #logo path {
+  fill: rgba(255, 255, 255, 0.8);
+}
+li {
+  color: rgba(194, 194, 194, 0.8);
+  list-style: none;
+  font-size: 12px;
+  font-weight: 600;
+}
