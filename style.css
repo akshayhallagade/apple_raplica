@@ -72,16 +72,18 @@ li {
 
 /* ------------ Section 2 -------- */
 .section2 {
-  /* background-image: url(img/apple_15_pro.jpg); */
+  background-image: url(img/apple_15_pro.jpg);
   background-size: 3008px 736px;
   background-repeat: no-repeat;
   background-position: center;
   height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
 }
 .sect2_info {
-  height: 300px;
   text-align: center;
-  padding: 70px 0 0 0;
+  padding: 70px 0;
 }
 .sect2_info h1 {
   font-size: 50px;
@@ -100,4 +102,103 @@ li {
 }
 .sect2_info div a i {
   width: 2px;
+}
+/* ------------ Section 3 -------- */
+.section3 {
+  background-image: url(img/apple_15.jpg);
+  background-size: 3008px 736px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.sect3_info {
+  text-align: center;
+  padding: 70px 0;
+  color: rgb(0, 0, 0);
+}
+.sect3_info h1 {
+  font-size: 50px;
+}
+.sect3_info h2 {
+  font-size: 25px;
+  font-weight: 300;
+}
+.sect3_info div {
+  padding-top: 20px;
+}
+.sect3_info div a {
+  text-decoration: none;
+  color: rgb(0, 102, 204);
+  padding: 0 20px;
+}
+.sect3_info div a i {
+  width: 2px;
+}
+/* ------------ Section 4 -------- */
+.section4 {
+  background-image: url(img/apple_watch_series_9.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.sect4_info {
+  text-align: center;
+  padding: 70px 0;
+  color: white;
+}
+.sect4_info h1 {
+  background-image: url(img/watch_head.png);
+  background-size: 151px 56px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  /* width: 200px; */
+}
+.sect4_info h2 {
+  font-size: 25px;
+  font-weight: 300;
+}
+.sect4_info p {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+.sect4_info div {
+  padding-top: 20px;
+}
+.sect4_info div a {
+  text-decoration: none;
+  font-size: 15px;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+}
+/* ------------ Section 5 -------- */
+.section5 {
+  background-color: white;
+  display: flex;
+  height: fit-content;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 10px 0 0 0;
+}
+.section5 > div {
+  width: 49%;
+  height: 400px;
+  background-color: rgb(251, 251, 253);
+  box-sizing: border-box;
+  border: 1px solid black;
+  margin: 0 0 10px 0;
+}
+.macbook_pro {
 }
