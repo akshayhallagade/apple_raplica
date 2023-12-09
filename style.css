@@ -4,20 +4,23 @@
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
 }
-
+body {
+  background-color: rgba(22, 22, 23, 0.8);
+}
 /* ------------ Header -------- */
 header {
   /* background-color: #000; */
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 100%;
   height: fit-content;
   position: fixed;
+  top: 0;
   color: rgba(194, 194, 194, 0.8);
 }
 nav {
   display: flex;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(22, 22, 23, 0.8);
 }
 header svg {
   display: flex;
@@ -41,4 +44,60 @@ li {
   list-style: none;
   font-size: 12px;
   font-weight: 600;
+}
+
+/* ------------ Section 1 -------- */
+.section1 {
+  height: 45px;
+  background-color: rgb(29, 29, 31);
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section1 button {
+  border: none;
+  font-size: 14px;
+  color: rgb(0, 102, 204);
+  background-color: rgba(255, 255, 255, 0);
+}
+.section1 button,
+.section1 button i {
+  font-size: 14px;
+  padding: 0 10px;
+  font-weight: 100;
+}
+
+/* ------------ Section 2 -------- */
+.section2 {
+  /* background-image: url(img/apple_15_pro.jpg); */
+  background-size: 3008px 736px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+}
+.sect2_info {
+  height: 300px;
+  text-align: center;
+  padding: 70px 0 0 0;
+}
+.sect2_info h1 {
+  font-size: 50px;
+}
+.sect2_info h2 {
+  font-size: 25px;
+  font-weight: 300;
+}
+.sect2_info div {
+  padding-top: 20px;
+}
+.sect2_info div a {
+  text-decoration: none;
+  color: rgb(0, 102, 204);
+  padding: 0 20px;
+}
+.sect2_info div a i {
+  width: 2px;
 }
